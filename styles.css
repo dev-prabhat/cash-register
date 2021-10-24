@@ -51,7 +51,7 @@ body{
     margin: 1rem;
 }
 #table-change{
-    margin: 1rem;
+    margin: auto;
 }
 
 
@@ -59,7 +59,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 500px;
+    width: 400px;
     text-align: justify;
 }
 
