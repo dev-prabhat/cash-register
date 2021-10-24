@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+body{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+}
+.input #bill-amount{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+.input #cash-given{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+#change-given{
+    font-family: 'Raleway', sans-serif;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+#error-message{
+    margin: 1rem;
+}
+#table-change{
+    margin: 1rem;
+}
+
+.trow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 600px;
+}

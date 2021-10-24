@@ -1,21 +1,11 @@
 var billAmount = document.querySelector("#bill-amount")
 var cashGiven = document.querySelector("#cash-given")
-// var valid = document.querySelector("#valid")
 var changeGiven = document.querySelector("#change-given")
 var message = document.querySelector("#error-message")
 var noOfNotes = document.querySelectorAll(".no-of-notes")
 
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1]
 
-// valid.addEventListener("click", function checkForValidation() {
-//     message.style.display = "none"
-//     afterValidation.innerHTML
-//     if (billAmount.value > 0) {
-
-//     } else {
-//         displayMessage("Invalid Amount")
-//     }
-// })
 
 changeGiven.addEventListener("click", function validateBillAndCashAmount() {
     message.style.display = "none"
@@ -32,7 +22,6 @@ changeGiven.addEventListener("click", function validateBillAndCashAmount() {
 })
 
 function calculateAmount(amonutToBeReturned) {
-    message.style.display = "none"
     for (let i = 0; i < availableNotes.length; i++) {
         const numberOfNotes = Math.trunc(
             amonutToBeReturned / availableNotes[i]
