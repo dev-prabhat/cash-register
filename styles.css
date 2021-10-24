@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 
+html{
+    background-color: #93C5FD;
+    color: #1E40AF;
+}
+
 body{
     max-width: 600px;
     margin: auto;
@@ -7,6 +12,20 @@ body{
     font-size: larger;
     font-family: 'Raleway', sans-serif;
 }
+
+.fa{
+    padding: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
 .input #bill-amount{
     margin: 1rem;
     padding: 0.5rem;
@@ -24,6 +43,9 @@ body{
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border-radius: 0.5rem;
+    background-color: #93C5FD;
+    color: #1E40AF;
+    border-color: #1E40AF;
 }
 #error-message{
     margin: 1rem;
@@ -32,9 +54,15 @@ body{
     margin: 1rem;
 }
 
+
 .trow{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 600px;
+    width: 500px;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 15%;
 }
