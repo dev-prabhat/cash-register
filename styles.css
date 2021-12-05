@@ -55,25 +55,26 @@ body{
     border: 1px solid #1E40AF;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    width: 400px;
+    width: 200px;
 }
 
 .trow{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-/* .trow td{
-    justify-content: space-between;
-} */
+
+
 
 .trow .no-of-notes{
+    width: 2rem;
     padding: 0rem 1rem;
     text-align: center;
     justify-content: center;
 }
 
 .trow .types-of-notes{
+    width: 2rem;
     padding: 0rem 1rem;
 }
 
